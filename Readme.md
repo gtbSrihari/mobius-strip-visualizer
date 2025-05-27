@@ -49,7 +49,32 @@ Here’s an example of the rendered Mobius strip using the `viridis` colormap fo
 
 ---
 
+## Dependencies
+
+This project requires the following Python libraries:
+
+- **numpy**
+- **matplotlib**
+
+You can install them using:
+
+```bash
+pip install -r requirements.txt
+
+```
+
 ## How to Run
 
 ```bash
 python mobius_strip.py
+```
+
+## Approximate Results
+
+Note: Since no real-world units were defined for R or w, let's consider centimeters (cm).
+
+Let's consider example parameter inputs as R=5, w=2, n=200. And the results are:-
+
+Surface Area: 63.573 cm²
+
+Edge Length: 67.149 cm
